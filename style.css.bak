@@ -1,0 +1,30 @@
+body, #test
+{
+	background-image: url("background1.jpg");
+	background-size: cover;
+	background-position:center;
+}	
+h1
+{
+	color: #001fe7;
+	text-shadow:3px 3px 	#ADD8E6;
+	font-family: 'Bangers', cursive;
+	font-weight: normal;
+	font-size: 60px;
+	line-height: 6px;
+	text-align: center;
+	margin: 5% auto 50;
+}	
+table
+{
+	font-family: 'Carter One', cursive;
+	font-size: 20px
+	color= #00008B;
+	
+}
+td
+{
+	color= #00008B;
+}
+
+

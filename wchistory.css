@@ -1,0 +1,177 @@
+
+  /*...................................................................................................................................*/
+  .topimg-container {
+    position: relative;
+    width: 1367px;
+    margin: 0 auto;
+    
+  }
+  
+  .topimg-container img {
+      vertical-align: middle;
+      padding-top: 78px;
+      position: relative;
+      width: 100%;
+    }
+  
+  .topimg-container .content {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0); 
+    background: rgba(255,255,255, 0.9); 
+    width: 100%;
+    padding: 20px;
+    height:35%;
+    top:260px;
+    bottom:65px;
+  }
+  
+
+  .topimg-container .topimg-text {
+    position: absolute;
+    text-align: center;
+    top:100px;
+    color: #009688;
+    font-size: 42px;
+    left:19%;
+  }
+
+
+/*.........................................................................................................................................*/
+#topic-colorline1 {
+    background-color:rgba(0, 145, 120, 0.9);
+    height: 50px;
+    padding-left: 40px;
+    padding-top: 10px;
+}
+#topic-colorline2 {
+    background-color:rgba(0, 145, 120, 0.9);
+    height: 50px;
+    padding-left: 40px;
+    padding-top: 10px;
+}
+
+.topic-color{
+    color: #f2f1e8;
+    font-size: 30px;
+    text-align: center;
+    
+}
+
+
+/*........................................................................................................................................*/
+
+.wcgrid-container {
+    display: grid;
+    grid-template-columns: 385px 385px  385px  ;
+    grid-gap: 10px;
+    background-image: url(./images/blueback2.jpg);
+    padding: 20px;
+    justify-content: center;
+    padding-top: 8px;
+  }
+  
+  .wcgrid-container > div {
+    background-color: transparent;
+    
+    text-align: center;
+    font-size: 30px;
+  }
+
+
+  /*......................................................................................................................................*/
+  .container {
+    position: relative;
+    width: 100%;
+  }  
+  
+  .overlay {
+    position: absolute;
+    bottom: 7px;
+    left: 0;
+    right: 0;
+    background-color: rgba(13, 105, 139,0.7);
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+  }
+  .wcimage{
+    height: 240px;
+    width: 384px;
+  }
+  
+  .container:hover .overlay {
+    height: 97.3%;
+    width:100%;
+  }
+  
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  /*.......................................................................................................................................*/
+
+  .musicgrid-container {
+    display: grid;
+    grid-template-columns: 300px 300px 300px ;
+    grid-gap: 10px;
+    background-image: url(./images/blueback2.jpg);
+    padding: 0px;
+    justify-content: center;
+    padding-top: 8px;
+  }
+  
+  .musicgrid1-item {
+    background-color: rgba(242, 241, 232, 0.5);
+    border: 1px solid rgba(13, 105, 139, 0.5);
+    padding: 20px;
+   
+  }
+
+  .musicgrid2-item {
+    padding: 20px;
+   
+    
+  }
+  .logoimage{
+    height: 250px;
+    width: 250px;
+
+  }
+
+/* <!-- ........................Back_to_top_button................................................................................................................................ --> */
+
+#upbutton {
+    display:block;
+    position: relative;
+    bottom: 20px;
+    left: 30px;
+    z-index: 1;
+    font-size: 18px;
+    text-align: left;
+    border-color:  #009688;
+    background-color:transparent;
+    color: #000;
+    width:90px;
+    height:35px;
+    padding-left: 10px;
+    border-radius: 14px;
+  }
+  #upbutton img{
+     height: 20px;
+  }
+  
+  #upbutton:hover {
+    background-color: #009688;
+    color:#f2f1e8;
+    border-color:  #050533;
+  }

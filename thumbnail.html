@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>TASD CRICKET - CRICKET LEGENDS</title>
+        <link rel="stylesheet" href="thumbnail.css">
+        <link rel="stylesheet" href="navbar.css">
+    </head>
+    <body>
+    <!-- ..........Navbar.................................................................................................................    -->
+    <div class="navbar">
+        <img src="./images/coollogo_com-195492227.png" alt="logo" id="logo">
+        <ul>
+            <li><a href="mainpage.html">Home</a></li>
+            <li><a href="index.html">Cric Store</a></li>
+            <li><a href="wchistory.html">WorldCup History</a></li>
+            <li><a href="thumbnail.html">Cricket Legends</a></li>
+            <li><a href="Quiz.html">Quiz</a></li>
+            <li><a href="Student_Details.html">About Us</a></li>
+            <li><a href="#">More</a>
+                <div class="submenu">
+                    <ul>
+                        <li><a href="Sitemap.html">Sitemap</a></li>
+                        <li><a href="contact_us.html">Contact Us</a></li>
+                    </ul>
+
+                </div>
+            </li>
+
+        </ul>
+        
+    </div>	
+
+        
+        <div class="container">
+            <div>
+                <!-- ...............Background_color_dropdown_menu..................................................................................... -->
+                <select name="bgcolor-drop" id="backmenu" onchange="change1(this)">
+                    <option value="" selected disabled hidden> -- Select Background --</option>
+                    <option value="red">Red</option>
+                    <option value="blue">Blue</option>
+                    <option value="green">Green</option>
+                    <option value="black">black</option>
+                    <option value="white">white</option>
+                    <option value="linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(./images/background.jpeg)">Ground picture</option>
+                    <option value="linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(./images/bg3.jpeg)">Ground picture 2</option>
+                </select>
+                    <!-- ................Font_color_dropdown_menu............................................................................................ -->
+                <select name="fontcolor-drop" id="fontmenu" onchange="change2(this)">
+                    <option value="" selected disabled hidden> -- Select Font Color --</option>
+                    <option value="white">white</option>
+                    <option value="red">Red</option>
+                    <option value="blue">Blue</option>
+                    <option value="green">Green</option>
+                    <option value="black">black</option>
+                </select>
+                
+        </div>
+
+            <!-- .....................Page_heading_and_details............................................................................................... -->
+        
+            <div class="row">
+                <div class="col2">
+                        <h1 id="h1">Cricket Legends</h1>
+                        <p id="p">Cricket is one of the most beloved sports in the world. It is a sport that brings people together.
+
+                            Over the years, the world has seen amazing Cricketers being produced. The level of competition is madness. But some Cricketers just leave a huge mark on the world.
+                            
+                            People may come, People may go but some remain as LEGENDS forever and for a reason.
+                            </p>
+                        
+                </div>
+
+                <!-- ................thumbnail_image_cards........................................................................................................ -->
+                
+                <div class="col">
+                    <div class="card card1">
+                        <h5 id="h5-1">Kumar Sangakkara</h5>
+                    </div>
+                    <div class="card card2">
+                        <h5 id="h5-2">Pathum Nissanka</h5>
+                    </div>
+                    <div class="card card3">
+                        <h5 id="h5-3">Virat Kohli</h5>
+                    </div>
+                    <div class="card card4">
+                        <h5 id="h5-4">AB de Villiers</h5>
+                    </div>
+                    <div class="card card5">
+                        <h5 id="h5-5">Michell Starc</h5>
+                    </div>
+                    <div class="card card6">
+                        <h5 id="h5-6">Lasith Malinga</h5>
+                    </div>
+                </div>
+                
+            </div>
+
+            <!-- ..............popups_onlclick.............................................................................................................................. -->
+
+            <dialog class="popup1" id="popup1">
+                <img src="./images/Kumar-Sangakkara.jpeg" alt="">
+                <h2 id="h2-1">Kumar Sangakkara</h2>
+                <P id="p2-1">Kumar Chokshanada Sangakkara (born 27 October 1977) is a Sri Lankan cricket commentator, former professional cricketer, businessman, ICC Hall of Fame inductee, and the former president of Marylebone Cricket Club. He is widely regarded as one of the greatest batsmen in the history of the sport. He was officially rated in the top three current batsmen in the world in all three formats of the game at various stages of his international career. Sangakkara scored 28,016 runs in international cricket across all formats in a career that spanned 15 years.At retirement, he was the second-highest run-scorer in ODI cricket, next only to Sachin Tendulkar, and the sixth-highest run scorer in Test cricket.</P>
+                <button class="close-button1">close</button>
+            </dialog>
+
+            <dialog class="popup2" id="popup2">
+                <img src="./images/Pathum-Nissanka.jpeg" alt="">
+                <h2 id="h2-2">Pathum Nissanka</h2>
+                <P id="p2-2">Pathum Nissanka Silva (born 18 May 1998) is a professional Sri Lankan cricketer who plays all formats for Sri Lanka. He made his international debut for the Sri Lanka cricket team in March 2021.</P>
+                <button class="close-button2">close</button>
+            </dialog>
+
+            <dialog class="popup3" id="popup3">
+                <img src="./images/virat2.jpg" alt="">
+                <h2 id="h2-3">Virat Kohli</h2>
+                <P id="p2-3">Virat Kohli (born 5 November 1988) is an Indian international cricketer and former captain of the India national cricket team. He plays for Delhi in domestic cricket and Royal Challengers Bangalore in the Indian Premier League as a right-handed batsman. He is often considered one of the best batsmen of his era and some critics believe him to be one of the best limited-overs batsmen in history. Between 2013 and 2022, he captained the India cricket team in more than 200 matches across all three formats. With 40 wins out of 68 test matches, Kohli is the most successful test captain in Indian cricket history.</P>
+                <button class="close-button3">close</button>
+            </dialog>
+
+            <dialog class="popup4" id="popup4">
+                <img src="./images/AB-de-Villiers.jpeg" alt="">
+                <h2 id="h2-4">AB de Villiers</h2>
+                <P id="p2-4">Abraham Benjamin de Villiers (born 17 February 1984) is a former South African international cricketer. De Villiers was named as the ICC ODI Player of the Year three times during his 15-year international career and was one of the five Wisden cricketers of the decade at the end of 2019.</P>
+                <button class="close-button4">close</button>
+            </dialog>
+
+            <dialog class="popup5" id="popup5">
+                <img src="./images/Starc2.jpeg" alt="">
+                <h2 id="h2-5">Michell Starc</h2>
+                <P id="p2-5">Mitchell Aaron Starc (born 30 January 1990) is an Australian international cricketer who plays for the Australian national team and New South Wales in domestic cricket. A left-arm fast bowler and a lower order left-handed batsman, Starc was a prominent member of the victorious Australian squad that won the 2015 Cricket World Cup and was declared Player of the Tournament as a result of his consistent performances.He is regarded as one of the best bowlers in modern cricket With 49 World Cup wickets, he is the joint 5th highest wicket taker in tournament's history. On 15 November 2015, Starc delivered one of the fastest deliveries in a Test match, of 160.4 km/h against Ross Taylor of New Zealand.</P>
+                <button class="close-button5">close</button>
+            </dialog>
+
+            <dialog class="popup6" id="popup6">
+                <img src="./images/malinga.jpeg" alt="">
+                <h2 id="h2-6">Lasith Malinga</h2>
+                <P id="p2-6">Separamadu Lasith Malinga (born 28 August 1983), nicknamed "Slinga Malinga", is a Sri Lankan former cricketer who is widely regarded as one of the greatest limited overs bowlers of all time. Malinga captained the Sri Lankan 2014 T20 World Cup winning side and he is the highest wicket taker in IPL and is the only bowler to take 4 wickets in 4 balls twice in international cricket. Malinga is a right-arm fast bowler that is commonly used as a specialist death bowler, and is well known for his distinctive round-arm action, sometimes referred to as a sling action, hence his aforementioned nickname. Malinga announced his retirement from all forms of cricket on 14 September 2021.</P>
+                <button class="close-button6">close</button>
+            </dialog>
+        
+            
+        </div>
+        <!-- ............................page_editor............................................................................................................................... -->
+        <div class="footer" >
+            <hr>
+            <p class="stu4"><a href="student4.html">Page Editor</a></p>
+        </div>
+
+        
+        <script src="./thumbnail.js"></script>
+        
+    </body>
+</html>

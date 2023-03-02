@@ -1,0 +1,63 @@
+/* <!-- ..........Navbar.................................................................................................................    --> */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.navbar{
+	width:100%;
+	margin: auto;
+	padding-top: 5px;
+    padding-bottom: 5px;
+	display: inline-flex;
+	align-items: center;
+	justify-content: space-between;
+    background-color:#000;
+    position: fixed;
+    z-index: 1;
+}
+#logo{
+	width: 120px;
+	cursor: pointer;
+	margin-left: 30px;
+	
+}
+.navbar ul li{
+	list-style: none;
+    align-items: center;
+	display: inline-block;
+	position: relative;
+    margin: 15px;
+    padding: 10px;
+    padding-right: 45px;
+	
+}
+.navbar ul li a{
+	text-decoration: none;
+	color: #fff;
+	text-transform: uppercase;
+}
+.navbar ul li::after{
+	content: '';
+	height: 3px;
+	width: 0;
+	background: #009688;
+	position: absolute;
+	left: 0;
+	bottom:-10px;
+	transition: 0.5s;
+}
+.navbar ul li:hover::after{
+	width:100%;
+}
+.submenu{
+    display: none;
+}
+.navbar ul li:hover .submenu{
+    display: block;
+    position:absolute;
+    right: 10px;
+    background: #000;
+    margin-top: 10px;
+    margin-left: -10px;
+}

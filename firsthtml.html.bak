@@ -1,0 +1,57 @@
+<html>
+<head>
+<title>TASD SPORTS</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+<script>
+	var seconds=0;
+	function displayseconds()
+	{
+		seconds +=1;
+		document.getElementById("secondsdisplay").innerText ="This page will redirect in "+seconds+" seconds...";
+	}
+	setInterval(displayseconds,1000);
+	function redirectpage()
+	{
+		window.location="index.html";
+	}
+	setTimeout('redirectpage()',4000);
+</script>
+</head>
+<body>
+	<center>
+		<h1>- WELCOME TO TASD SPORTS WEB -</h1>
+		
+		
+		<table>
+		<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Carter+One&display=swap" rel="stylesheet">
+  <tr>
+    
+    <td>Group members</td>
+    <td>= Tiranga</td>
+  </tr>
+  <tr>
+    
+    <td></td>
+    <td>= Akila</td>
+  </tr>
+  <tr>
+    
+    <td></td>
+    <td>= Dulshi</td>
+  </tr>
+  <tr>
+    
+    <td></td>
+    <td>= Sanjula</td>
+  </tr>
+  
+  
+</table>
+		
+		<div id="secondsdisplay"></div>
+		<img src="loader.gif" height="100" width="100"/>
+		
+	</center>
+</body>
+</html>	

@@ -1,0 +1,23 @@
+body{
+	background-image:  linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("./Images/Cricket.jpg");
+	background-size: cover;
+	background-position: center;	
+	color: white;
+	font-size: 20px;
+}
+
+h1{
+    text-align:center;
+	font-size:40px;
+}
+
+#image{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width:400px;
+}
+
+p{
+    text-align:center;
+}

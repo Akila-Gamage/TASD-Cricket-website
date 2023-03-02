@@ -1,0 +1,65 @@
+<!doctype html>
+<head>
+	<title>TASD CRICKET - CONTACT US</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="navbar.css">
+	<script defer src="script.js"></script>
+
+</head>	
+
+<body> 
+    <div class="navbar">
+		<img src="./images/coollogo_com-195492227.png" alt="logo" id="logo">
+		<ul>
+			<li><a href="mainpage.html">Home</a></li>
+			<li><a href="index.html">Cric Store</a></li>
+			<li><a href="wchistory.html">WorldCup History</a></li>
+			<li><a href="thumbnail.html">Cricket Legends</a></li>
+			<li><a href="Quiz.html">Quiz</a></li>
+			<li><a href="Student_Details.html">About Us</a></li>
+			<li><a href="#">More</a>
+				<div class="submenu">
+					<ul>
+						<li><a href="Sitemap.html">Sitemap</a></li>
+						<li><a href="contact_us.html">Contact Us</a></li>
+					</ul>
+	
+				</div>
+			</li>
+	
+		</ul>
+		
+	</div>	
+		<h1>Contact Us</h1>
+		<form name="form" action="mailto:ravindu.20201024@iit.ac.lk" id="myform" method="post"  > 
+		<div id="form_div">
+		<legend>
+			<label for="namee">Name: </label><br>
+			<input type="text" name="name" id="namee" ><br><br>
+			
+			<label for="mail">Email: <label><br>
+			<input type="email" name="email" id="mail"><br><br>
+			
+			<label for="query">Query:</label><br>	
+			<textarea name="query" id="query"></textarea><br><br>
+			
+			<label for="shipping">Shipping</label>
+			<input type="radio" name="radio" id="shipping" value="Shipping"><br>
+			
+			<label for="product_details">Product Details </label>
+			<input type="radio" name="radio" id="product_details" value="Product Details"><br>
+			
+			<label for="custom_orders">Custom Orders</label>
+			<input type="radio" name="radio" id="custom_orders" value="Custom orders"><br><br>
+		</legend>
+			<input type="button" name="view" value="View Query" onclick="return form_validation(form)"><br><br>
+			</div>
+			
+			<span id="test"></span>
+		</form>
+  <div class="footer" >
+	<hr>
+	<p class="stu2"><a href="student2.html">Page Editor</a></p>
+  </div>
+</body>
+</html>

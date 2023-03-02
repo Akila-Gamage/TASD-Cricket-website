@@ -1,0 +1,385 @@
+
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(./images/players7.webp);
+    background-position: center;
+    background-size: cover;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+/* <!-- ...............Background_color_dropdown_menu..................................................................................... --> */
+
+#backmenu{
+    position: relative;
+    top: 0px;
+    left: 1150px;
+    border: none;
+    outline: none;
+    width: 165px;
+    height: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 110px rgba(252, 249, 249, 0.945);
+    font-size: 13px;
+    font-weight: 400;
+    text-align: center;
+    background: transparent;
+    color: #fff;
+
+}
+
+/* <!-- ................Font_color_dropdown_menu............................................................................................ --> */
+#fontmenu{
+    position: relative;
+    left: 800px;
+    border: none;
+    outline: none;
+    width: 165px;
+    height: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 110px rgba(252, 249, 249, 0.945);
+    font-size: 13px;
+    font-weight: 400;
+    text-align: center;
+    background: transparent;
+    color: #fff;
+
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    padding-top: 100px;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+}
+
+.row{
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+.col{
+    flex-basis: 55%;
+    align-items: inherit;
+}
+.col2{
+    flex-basis: 50%;
+    align-items: inherit;
+    max-width: 500px;
+}
+
+/* <!-- .....................Page_heading_and_details............................................................................................... --> */
+
+h1{
+    color: #fff;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 60px;
+    text-shadow: 5px 5px 10px #000;
+
+}
+p{
+    color: #fff;
+    font-size: 13px;
+    line-height: 20px;
+    margin: 10px;
+    text-shadow: 5px 5px 10px #000;
+}
+
+/* <!-- ................thumbnail_image_cards........................................................................................................ --> */
+.card{
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-size: cover;
+    transition: transform 0.5s;
+    
+}
+.card1{
+    background-image: url(./images/Kumar-Sangakkara.jpeg);
+}
+.card2{
+    background-image: url(./images/Pathum-Nissanka.jpeg);
+}
+.card3{
+    background-image: url(./images/virat2.jpg);
+}
+.card4{
+    background-image: url(./images/AB-de-Villiers.jpeg);
+}
+.card5{
+    background-image: url(./images/Starc2.jpeg);
+}
+.card6{
+    background-image: url(./images/malinga.jpeg);
+}
+.card:hover{
+    transform: translateY(-10px);
+}
+h5{
+    text-align: center;
+    font-size: 15px;
+    position: relative;
+    top: 175px;
+    color: #fff;
+    text-shadow: 5px 5px 10px #000;
+    
+}
+
+/* <!-- ..............popups_onlclick.............................................................................................................................. --> */
+
+.popup1{
+    padding: 1em;
+    max-width: 600px;
+    margin: 100px 400px 100px;
+    text-align: center;
+    border: 10px #000;
+    border-radius: 10px;
+    background:transparent;
+    position: relative;
+}
+.popup1 img{
+    max-width: 500px;
+    max-height: 400px;
+    margin: 20px 85px 20px;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    
+}
+.popup1 p{
+    font-size: 12px;
+    text-align: center;
+    color: #fff;
+}
+.popup1 h2{
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+}
+.popup1 .close-button1{
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px 5px 10px;
+    background: transparent;
+    color: #fff;
+
+}
+.popup1::backdrop{
+    background: linear-gradient(rgba(0,0,0,1),rgba(0,0,0,1));
+    opacity: 0.9;
+}
+.popup2{
+    padding: 1em;
+    max-width: 600px;
+    margin: 100px 400px 100px;
+    text-align: center;
+    border: 5px #000;
+    border-radius: 10px;
+    background:transparent;
+    position: relative;
+}
+.popup2 img{
+    max-width: 500px;
+    max-height: 400px;
+    margin: 20px 85px 20px;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    
+}
+.popup2 p{
+    font-size: 12px;
+    text-align: center;
+    color: #fff;
+}
+.popup2 h2{
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+}
+.popup2 .close-button2{
+    border: 1px #000;
+    border-radius: 10px;
+    padding: 5px 10px 5px 10px;
+    background: transparent;
+    color: #fff;
+
+}
+.popup2::backdrop{
+    background: linear-gradient(rgba(0,0,0,1),rgba(0,0,0,1));
+    opacity: 0.9;
+}
+.popup3{
+    padding: 1em;
+    max-width: 600px;
+    margin: 100px 400px 100px;
+    text-align: center;
+    border: 5px #000;
+    border-radius: 10px;
+    background:transparent;
+    position: relative;
+}
+.popup3 img{
+    max-width: 500px;
+    max-height: 400px;
+    margin: 20px 85px 20px;
+    border: 2px solid #fff;
+    border-radius: 10px;
+}
+.popup3 p{
+    font-size: 12px;
+    text-align: center;
+    color: #fff;
+}
+.popup3 h2{
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+}
+.popup3 .close-button3{
+    border: 1px #000;
+    border-radius: 10px;
+    padding: 5px 10px 5px 10px;
+    background: transparent;
+    color: #fff;
+
+}
+.popup3::backdrop{
+    background: linear-gradient(rgba(0,0,0,1),rgba(0,0,0,1));
+    opacity: 0.9;
+}
+.popup4{
+    padding: 1em;
+    max-width: 600px;
+    margin: 100px 400px 100px;
+    text-align: center;
+    border: 5px #000;
+    border-radius: 10px;
+    background:transparent;
+    position: relative;
+}
+.popup4 img{
+    max-width: 500px;
+    max-height: 400px;
+    margin: 20px 85px 20px;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    
+}
+.popup4 p{
+    font-size: 12px;
+    text-align: center;
+    color: #fff;
+}
+.popup4 h2{
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+}
+.popup4 .close-button4{
+    border: 1px #000;
+    border-radius: 10px;
+    padding: 5px 10px 5px 10px;
+    background: transparent;
+    color: #fff;
+
+}
+.popup4::backdrop{
+    background: linear-gradient(rgba(0,0,0,1),rgba(0,0,0,1));
+    opacity: 0.9;
+}
+.popup5{
+    padding: 1em;
+    max-width: 600px;
+    margin: 100px 400px 100px;
+    text-align: center;
+    border: 5px #000;
+    border-radius: 10px;
+    background:transparent;
+    position: relative;
+}
+.popup5 img{
+    max-width: 500px;
+    max-height: 400px;
+    margin: 20px 85px 20px;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    
+}
+.popup5 p{
+    font-size: 12px;
+    text-align: center;
+    color: #fff;
+}
+.popup5 h2{
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+}
+.popup5 .close-button5{
+    border: 1px #000;
+    border-radius: 10px;
+    padding: 5px 10px 5px 10px;
+    background: transparent;
+    color: #fff;
+
+}
+.popup5::backdrop{
+    background: linear-gradient(rgba(0,0,0,1),rgba(0,0,0,1));
+    opacity: 0.9;
+}
+.popup6{
+    padding: 1em;
+    max-width: 600px;
+    margin: 100px 400px 100px;
+    text-align: center;
+    border: 5px #000;
+    border-radius: 10px;
+    background:transparent;
+    position: relative;
+}
+.popup6 img{
+    max-width: 500px;
+    max-height: 400px;
+    margin: 20px 85px 20px;
+    border: 2px solid #fff;
+    border-radius: 10px;
+}
+.popup6 p{
+    font-size: 12px;
+    text-align: center;
+    color: #fff;
+}
+.popup6 h2{
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+}
+.popup6 .close-button6{
+    border: 1px #000;
+    border-radius: 10px;
+    padding: 5px 10px 5px 10px;
+    background: transparent;
+    color: #fff;
+
+}
+.popup6::backdrop{
+    background: linear-gradient(rgba(0,0,0,1),rgba(0,0,0,1));
+    opacity: 0.9;
+
+}
+
+/* <!-- ............................page_editor............................................................................................................................... --> */
+.footer {
+    text-align: center;
+    overflow: hidden;
+    background-color: transparent;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    left: 0px;
+    right: 0px;
+  }
